@@ -34,39 +34,44 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: var(--spacing);
+  /* letter-spacing: var(--spacing); */
   line-height: 1.25;
-  margin-bottom: 0.75rem;
-  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
 }
 h1 {
-  font-size: 3rem;
-}
-h2 {
   font-size: 2rem;
 }
+h2 {
+  font-size: 1rem;
+}
 h3 {
-  font-size: 1.5rem;
+  font-size: 0.85rem;
 }
 h4 {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
 p {
   text-transform: capitalize;
-  margin-bottom: 1.25rem;
-  font-size: 2rem;
+  max-width:35rem;
+  margin-bottom: 1.55rem;
+  font-size: 1.2rem;
   color: var(--clr-grey-10);
 }
 
 .btn {
-  text-transform: uppercase;
-  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  /* letter-spacing: var(--spacing); */
   border-radius: var(--radius);
   transition: var(--transition);
   display: inline-block;
-  padding: 0.4rem 0.7rem;
+  padding: 0.75rem 1rem;
   background: var(--clr-primary);
   border: none;
+  font-size: 1.1rem;
+  color:var(--clr-white);
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .section {
@@ -76,11 +81,13 @@ p {
 .section-center {
     width: 90vw;
     margin: 0 auto;
-    max-width: 1170px;
+    /* max-width: 1170px; */
 }
 
 .navbar{
     padding:1rem 0;
+    height:4rem;
+    margin-bottom: 0.3rem;
 }
 
 .logo-nav{
@@ -117,18 +124,20 @@ form input{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    gap:33px;
+    gap:36px;
 
 }
 button{
-    padding: 0.5rem 0.7rem;
+    padding: 0.6rem 1rem;
     border-radius: var(--radius);
     /* width:60px; */
     border: 0.25px solid black;
 }
+
 button .bar,.user{
-    font-size:1.1rem;
+    font-size:1.2rem;
 }
+
 button .bar{
     margin-right:0.6rem;
 
@@ -137,10 +146,10 @@ button .bar{
     form, .nav-events span{
         display: block;
     }
+    .navbar{
+        margin-bottom: 0.5rem;
+    }
+    button{
+        padding: 0.5rem 0.8rem;
+    }
 }
-/* .btn:hover {
-  background: transparent;
-  color: var(--clr-grey-10);
-  cursor: pointer;
-  outline: 1px solid var(--clr-grey-10);
-} */
