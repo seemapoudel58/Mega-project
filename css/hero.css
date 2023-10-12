@@ -1,5 +1,6 @@
 .hero{
-    min-height: calc(80vh - 4rem);
+    /* margin-top: 2rem; */
+    min-height: calc(100vh - 4.5rem);
     background-image:url(../images/background.png);
     background-size: cover;
     display:flex;
@@ -7,12 +8,14 @@
     margin-bottom: 2rem;
 }
 @media screen and (min-width:800px) {
+    .hero{
+        min-height: calc(80vh - 4rem);
+    }
     h1{
         font-size: 2.5rem;
         max-width:30rem;
     }
     .btn {
-        padding: 0.5rem 1rem;
-        
+        padding: 0.5rem 1rem;   
       }    
 }

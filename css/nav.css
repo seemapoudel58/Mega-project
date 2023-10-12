@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Quicksand:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Plus+Jakarta+Sans:wght@600&display=swap');
 :root {
-  --clr-primary: #e91111;
-  --clr-primary-light: #f2e8d9;
-  --clr-primary-2: rgb(148, 166, 88);
-  --clr-grey-10: #0e0b21;
-  --clr-white: #fff;
-  --ff-primary: 'Montserrat Alternates', sans-serif;
-  --ff-secondary: 'Quicksand', sans-serif;
+  --clr-primary:linear-gradient(99.35deg, #E8336A 8.18%, #C12A58 92.24%);
+  /* --clr-primary-light: #f2e8d9; */
+  --clr-primary-2:#3D3D3D;
+  --clr-grey-10: #000000;
+  --clr-white:#FFFFFF;
+  --ff-primary:'Plus Jakarta Sans', sans-serif;
+  --ff-secondary: 'Figtree', sans-serif;
   --transition: all 0.4s linear;
   --spacing: 0.25rem;
   --radius: 1.2rem;
@@ -24,7 +25,10 @@ body {
   font-size: 0.875rem;
 }
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
+  color:var(--clr-grey-10);
+  font-weight: bold;
+  /* text-decoration: underline; */
 }
 img:not nav{
   width: 100%;
@@ -35,30 +39,39 @@ h2,
 h3,
 h4 {
   /* letter-spacing: var(--spacing); */
+  font-family: var(--ff-primary);
   line-height: 1.25;
   margin-bottom: 1rem;
-  text-transform: capitalize;
-}
-h1 {
-  font-size: 2rem;
+  /* text-transform: capitalize; */
 }
 h2 {
-  font-size: 1rem;
+  font-size: 2.5rem;
 }
 h3 {
-  font-size: 0.85rem;
+  font-size: 1.5rem;
 }
 h4 {
-  font-size: 0.75rem;
+  font-size: 1.rem;
+}
+h5 {
+  font-size: 0.8rem;
 }
 p {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   max-width:35rem;
-  margin-bottom: 1.55rem;
+  margin-bottom: 1.6rem;
   font-size: 1.2rem;
-  color: var(--clr-grey-10);
+  font-weight: bold;
+  /* color: var(--clr-grey-10); */
 }
+span{
+  /* font-weight: bold; */
+  line-height: 1.25;
+  margin-bottom: 0.9rem;
+  /* --spacing: 1.5rem; */
+  letter-spacing:0.05rem;
 
+}
 .btn {
   text-transform: capitalize;
   /* letter-spacing: var(--spacing); */
@@ -85,9 +98,15 @@ p {
 }
 
 .navbar{
+    background-color: var(--clr-white);
     padding:1rem 0;
-    height:4rem;
-    margin-bottom: 0.3rem;
+    height:4.5rem;
+    /* bottom: 20px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
 
 .logo-nav{
