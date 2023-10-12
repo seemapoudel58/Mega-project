@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Plus+Jakarta+Sans:wght@600&display=swap');
 :root {
   --clr-primary:linear-gradient(99.35deg, #E8336A 8.18%, #C12A58 92.24%);
-  /* --clr-primary-light: #f2e8d9; */
+  --clr-primary-light:#DADADA;
   --clr-primary-2:#3D3D3D;
   --clr-grey-10: #000000;
   --clr-white:#FFFFFF;
@@ -58,17 +58,15 @@ h5 {
 }
 p {
   /* text-transform: capitalize; */
-  max-width:35rem;
+  max-width:28rem;
   margin-bottom: 1.6rem;
   font-size: 1.2rem;
   font-weight: bold;
   /* color: var(--clr-grey-10); */
 }
 span{
-  /* font-weight: bold; */
   line-height: 1.25;
   margin-bottom: 0.9rem;
-  /* --spacing: 1.5rem; */
   letter-spacing:0.05rem;
 
 }

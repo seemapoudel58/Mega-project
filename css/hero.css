@@ -11,9 +11,10 @@
     .hero{
         min-height: calc(80vh - 4rem);
     }
-    h1{
+    .hero-info h2{
+        margin-top:5rem;
         font-size: 2.5rem;
-        max-width:30rem;
+        max-width:24rem;
     }
     .btn {
         padding: 0.5rem 1rem;   
