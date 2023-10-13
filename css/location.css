@@ -22,7 +22,7 @@
      /* border: 2px solid red; */
     width:27vw;
     border-radius: 15px;
-    transition: transform 0.35s ease-in-out;
+    transition: var(--transition);
     /* transform: translateY(0); */
 
 }

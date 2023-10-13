@@ -43,11 +43,7 @@ aside{
     margin-top:2rem; 
     border-radius: 10px;
 }
-/* .event-card:hover {
-    box-shadow: 2px 3px 3px rgba(53, 26, 26, 0.6);
-    cursor: pointer;
-    transform: scale(1.02);
-} */
+
 .pimg {
     /* min-height: 500px; */
     min-width:100%;
@@ -116,11 +112,7 @@ aside{
     
 }
 
-/* .line{
-    width:100%;
-    height:1rem;
-    background-color:black;
-} */
+
 @media screen and (min-width: 1170px) {
     .event-card {
         width: 20vw; 

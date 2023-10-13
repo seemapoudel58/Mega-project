@@ -8,7 +8,7 @@
   --clr-white:#FFFFFF;
   --ff-primary:'Plus Jakarta Sans', sans-serif;
   --ff-secondary: 'Figtree', sans-serif;
-  --transition: all 0.4s linear;
+  --transition: all 0.4s ease-out;
   --spacing: 0.25rem;
   --radius: 1.2rem;
 }
@@ -145,6 +145,7 @@ form input{
 .nav-events span{
   margin:0 auto;
 }
+
 button{
     padding: 0.6rem 1rem;
     border-radius: var(--radius);
@@ -160,6 +161,7 @@ button .bar{
     margin-right:0.6rem;
 
 }
+
 @media screen and (min-width:800px) {
     form, .nav-events span{
         display: block;

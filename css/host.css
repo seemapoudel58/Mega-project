@@ -1,0 +1,54 @@
+.host-img{
+    max-width:100%;
+    transition: var(--transition);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+
+}
+.host-img:hover{
+    transform: scale(1.05);
+}
+
+.hosting{
+    /* border:1px solid red; */
+    padding:2rem;
+    box-shadow:1px 2px 4px  rgb(171, 132, 132);
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+.hosting:hover{
+    transform: scale(1.05);
+    background: rgba(245, 245, 245, 1);
+}
+.hosting p{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.hosting br{
+    display:none;
+}
+@media screen and (min-width: 950px) {
+    .host-img{
+        min-width:75%;
+        float:right;
+        position:relative;
+        z-index:1;
+    }
+    .hosting{
+        width:30%;
+        position:absolute;
+        z-index:2;
+        background-color: var(--clr-white);
+        margin-top:9rem;
+    }
+    .hosting h3, .hosting p{
+        max-width:20rem;
+    }
+    .hosting h3{
+        font-size: 2.3rem;
+    }
+    .hosting br{
+        display:block;
+    }
+}
