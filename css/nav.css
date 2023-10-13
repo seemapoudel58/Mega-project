@@ -81,7 +81,7 @@ span{
   border: none;
   font-size: 1.1rem;
   color:var(--clr-white);
-  font-weight: bold;
+  /* font-weight: bold; */
   cursor: pointer;
 }
 
