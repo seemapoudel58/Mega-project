@@ -72,7 +72,6 @@ span{
 }
 .btn {
   text-transform: capitalize;
-  /* letter-spacing: var(--spacing); */
   border-radius: var(--radius);
   transition: var(--transition);
   display: inline-block;
@@ -81,7 +80,6 @@ span{
   border: none;
   font-size: 1.1rem;
   color:var(--clr-white);
-  /* font-weight: bold; */
   cursor: pointer;
 }
 
@@ -92,14 +90,12 @@ span{
 .section-center {
     width: 90vw;
     margin: 0 auto;
-    /* max-width: 1170px; */
 }
 
 .navbar{
     background-color: var(--clr-white);
     padding:1rem 0;
     height:4.5rem;
-    /* bottom: 20px; */
     position: fixed;
     top: 0;
     left: 0;
@@ -130,6 +126,7 @@ form input{
 form input{
     box-shadow: 0px 2px 4px grey;
   }
+
 .nav-center{
     display:flex;
     justify-content: space-between;
@@ -143,6 +140,10 @@ form input{
     align-items: center;
     gap:36px;
 
+
+}
+.nav-events span{
+  margin:0 auto;
 }
 button{
     padding: 0.6rem 1rem;

@@ -54,7 +54,10 @@
         margin-top:1.3rem;
     }
     .info h3{
-        font-weight: 2.5rem;
+        font-weight: 3rem;
+    }
+    .btn{
+        font-size: small;
     }
     
 }
