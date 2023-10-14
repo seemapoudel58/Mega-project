@@ -38,11 +38,9 @@ h1,
 h2,
 h3,
 h4 {
-  /* letter-spacing: var(--spacing); */
   font-family: var(--ff-primary);
   line-height: 1.25;
   margin-bottom: 1rem;
-  /* text-transform: capitalize; */
 }
 h2 {
   font-size: 2.5rem;
@@ -53,8 +51,15 @@ h3 {
 h4 {
   font-size: 1.rem;
 }
-h5 {
-  font-size: 0.8rem;
+
+ul{
+  margin-bottom:2rem;
+}
+li{
+  list-style-type: none;
+  margin-bottom:0.8rem;
+  font-size:1rem;
+  /* font-weight: lighter; */
 }
 p {
   /* text-transform: capitalize; */

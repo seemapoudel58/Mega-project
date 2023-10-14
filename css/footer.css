@@ -1,0 +1,25 @@
+footer{
+    width: 100%;
+    background-color: rgba(245, 245, 245, 1);;
+    box-sizing: content-box;
+}
+.footer-image{
+    margin-bottom:1rem;
+}
+.footer-description h4{
+    font-size: 1.35rem;
+}
+.footer-description a, .end a{
+    text-decoration: none;
+}
+.footer-description a:hover, .end a:hover{
+    text-decoration: underline;
+    color:blue
+}
+.end{
+    margin-top:4rem;
+}
+@media screen and (min-width:900px) {
+    
+    
+}
