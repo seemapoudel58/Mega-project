@@ -1,7 +1,8 @@
-footer{
+.footer{
     width: 100%;
     background-color: rgba(245, 245, 245, 1);;
     box-sizing: content-box;
+    padding:3rem 0;
 }
 .footer-image{
     margin-bottom:1rem;
@@ -20,7 +21,12 @@ footer{
 .end{
     margin-top:4rem;
 }
+
 @media screen and (min-width:900px) {
+    .footer{
+        padding:0;
+        padding-top:4rem;
+    }
     .footer-center{
         display:flex;
         align-items: center;
@@ -41,6 +47,7 @@ footer{
         /* justify-content: space-between; */
         gap:200px;
         margin:0 auto;
+        /* margin-bottom:0; */
         /* padding:0; */
     }
     .f-link li {
