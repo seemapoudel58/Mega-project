@@ -44,7 +44,7 @@
     }
     
     .hosting{
-        min-width:24%;
+        min-width:25%;
         right: 70%;
         z-index:2;
         background-color: var(--clr-white);

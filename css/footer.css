@@ -8,6 +8,7 @@ footer{
 }
 .footer-description h4{
     font-size: 1.35rem;
+    margin-bottom: 1.8rem;
 }
 .footer-description a, .end a{
     text-decoration: none;
@@ -20,6 +21,33 @@ footer{
     margin-top:4rem;
 }
 @media screen and (min-width:900px) {
-    
+    .footer-center{
+        display:flex;
+        align-items: center;
+        gap:235px;
+        margin-bottom:3rem;
+    }
+    .footer-img{
+        width:20vw;
+        height:100%;
+    }
+    .footer-description{
+        display:flex;
+        justify-content: space-between;
+        gap:100px;
+    }
+    .end{
+        display:flex;
+        /* justify-content: space-between; */
+        gap:200px;
+        margin:0 auto;
+        /* padding:0; */
+    }
+    .f-link li {
+        display:inline-block;
+        /* justify-content: space-between; */
+        margin-right:25px;
+        
+    }
     
 }
