@@ -2,7 +2,8 @@
     width: 100%;
     background-color: rgba(245, 245, 245, 1);;
     box-sizing: content-box;
-    padding:3rem 0;
+    padding-top:3rem;
+    padding-bottom:2rem;
 }
 .footer-image{
     margin-bottom:1rem;
@@ -25,7 +26,7 @@
 @media screen and (min-width:900px) {
     .footer{
         /* padding:0; */
-        padding-top:4rem;
+        /* padding-top:4rem; */
         padding-bottom: 0;
     }
     .footer-center{
