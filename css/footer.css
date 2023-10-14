@@ -24,7 +24,7 @@
 
 @media screen and (min-width:900px) {
     .footer{
-        padding:0;
+        /* padding:0; */
         padding-top:4rem;
     }
     .footer-center{
