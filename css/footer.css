@@ -26,6 +26,7 @@
     .footer{
         /* padding:0; */
         padding-top:4rem;
+        padding-bottom: 0;
     }
     .footer-center{
         display:flex;
