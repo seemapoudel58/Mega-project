@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Plus+Jakarta+Sans:wght@600&display=swap');
+
 :root {
   --clr-primary:linear-gradient(99.35deg, #E8336A 8.18%, #C12A58 92.24%);
   --clr-primary-light:#DADADA;
@@ -12,11 +13,13 @@
   --spacing: 0.25rem;
   --radius: 1.2rem;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-white);
@@ -24,16 +27,19 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+
 a {
   /* text-decoration: none; */
   color:var(--clr-grey-10);
   font-weight: bold;
   /* text-decoration: underline; */
 }
+
 img:not nav{
   width: 100%;
   display: block;
 } 
+
 h1,
 h2,
 h3,
@@ -42,12 +48,15 @@ h4 {
   line-height: 1.25;
   margin-bottom: 1rem;
 }
+
 h2 {
   font-size: 2.5rem;
 }
+
 h3 {
   font-size: 1.5rem;
 }
+
 h4 {
   font-size: 1.rem;
 }
@@ -127,14 +136,14 @@ form input{
   width:100%;
   font-size: 1rem;
   padding: 0.7rem 15rem 0.7rem 1rem;
-    border-radius: var(--radius);
-    border:0.2px solid grey;
+  border-radius: var(--radius);
+  border:0.2px solid grey;
     /* padding-left:10px; */
 }
 
 form input{
   box-shadow: 0px 2px 4px grey;
-  }
+}
 
 .nav-center{
   display:flex;
@@ -148,9 +157,8 @@ form input{
   justify-content: space-between;
   align-items: center;
   gap:36px;
-
-
 }
+
 .nav-events span{
   margin:0 auto;
 }
