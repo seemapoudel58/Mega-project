@@ -11,6 +11,7 @@
     margin-bottom: 2rem;
     position: relative;
 }
+
 .hero-info {
     position: absolute;
     left: 50%;
@@ -25,15 +26,18 @@
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 20px;
 }
+
 .hero-info h2{
     font-size:1.5rem;
 }
+
 .hero-info p{
     font-size:1rem;
     font-weight: lighter;
     max-width:50rem;
 
 }
+
 @media screen and (min-width:800px) {
     .hero{
         min-height: calc(90vh - 4rem);

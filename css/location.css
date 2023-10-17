@@ -28,7 +28,7 @@
 }
 .loc-img:hover{
     cursor: pointer;
-    box-shadow: 0px 0px 20px red;
+    box-shadow: 0px 0px 20px  #C12A58   ;
     transform: translateY(-10px);
 }
 @media screen and (min-width:1170px) {
